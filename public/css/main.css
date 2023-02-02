@@ -1,0 +1,56 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    /*background-image: url("../images/background.png");*/
+    /*background-repeat: repeat;*/
+    /*animation-duration: 0.5s;*/
+    /*animation-name: bgRan;*/
+    /*animation-iteration-count: infinite;*/
+}
+#search-form {
+    border-radius: 19px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+#search-form input{
+    width: calc(100% - 30px);
+    background-color: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.search-btn {
+    height: 100%;
+    background: transparent;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+.search-btn:hover i{
+    color: black;
+}
+
+/*@keyframes bgRan {*/
+/*    0% {*/
+/*        background-position: top;*/
+/*    }*/
+/*    100% {*/
+/*        background-position: bottom;*/
+/*    }*/
+/*    0% {*/
+/*        background-position: top;*/
+/*    }*/
+/*}*/
+
